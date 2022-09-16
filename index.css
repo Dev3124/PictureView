@@ -1,0 +1,23 @@
+.rect {
+    width: fit-content;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #2815d4;
+}
+img {
+    border-radius: 50%;
+}
+.title {
+    display: none;
+}
+.hover .title {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+.hover img {
+    opacity: 0.5;
+    filter: brightness(50%);
+}
