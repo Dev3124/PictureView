@@ -8,7 +8,7 @@
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
             crossorigin="anonymous"
         />
-        <link rel="stylesheet" href="./index.css" />
+        <link rel="stylesheet" href="./styles/index.css" />
         <script
             src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -36,8 +36,8 @@
                         ng-mouseleave="trigger = false"
                     >
                         <img
-                            ng-src="{{datum.social_media_pages.picture || './default.jpg'}}"
-                            on-error-src="./default.jpg"
+                            ng-src="{{datum.social_media_pages.picture || './assets/default.jpg'}}"
+                            on-error-src="./assets/default.jpg"
                             alt="image"
                             class="mx-auto my-auto d-block align-self-center border-cicle"
                         />
@@ -47,5 +47,5 @@
             </div>
         </div>
     </body>
-    <script src="./index.js"></script>
+    <script src="./scripts/index.js"></script>
 </html>
